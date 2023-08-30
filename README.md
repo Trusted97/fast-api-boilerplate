@@ -15,7 +15,7 @@ This is a boilerplate project to quickly start a web application using the FastA
 
 ## Requirements
 
-*   Python 3.8 or higher.
+*   Python 3.9 or higher.
 
 ## Getting Started
 
@@ -24,16 +24,12 @@ This is a boilerplate project to quickly start a web application using the FastA
         git clone https://github.com/yourusername/fast-api-boilerplate.git
         cd fast-api-boilerplate
     
-2. Install dependencies using Poetry:
+2. Run the development server using Docker:
     
-        poetry install
+        docker-compose up --build -d
     
-3. Run the development server using Docker:
-    
-        docker-compose up
-    
-4. Access the FastAPI application: Open your web browser and go to [http://localhost:8000](http://localhost:8000)
-5. Access the Swagger documentation at [http://localhost:8000/docs](http://localhost:8000/docs) to interact with the API.
+3. Access the FastAPI application: Open your web browser and go to [http://localhost:8000](http://localhost:8000)
+4. Access the Swagger documentation at [http://localhost:8000/docs](http://localhost:8000/docs) to interact with the API.
 
 
 ## Project Structure
