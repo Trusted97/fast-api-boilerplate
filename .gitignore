@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+.venv/
+
+# Poetry
+__pypackages__/
+poetry.lock
+pyproject.toml
+
+# Logs
+*.log
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo

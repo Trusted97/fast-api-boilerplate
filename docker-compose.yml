@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  fastapi-app:
+    container_name: fast-api-boilerplate
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
