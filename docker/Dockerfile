@@ -10,7 +10,7 @@ RUN pip install poetry
 RUN pip install uvicorn
 
 # Copia i file di configurazione di Poetry (pyproject.toml e poetry.lock) nella directory /app
-COPY pyproject.toml poetry.lock /app/
+COPY pyproject.toml /app/
 
 # Installa le dipendenze del progetto utilizzando Poetry
 RUN poetry install

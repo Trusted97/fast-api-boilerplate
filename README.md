@@ -1,4 +1,5 @@
 # FastAPI Boilerplate
+![GitHub](https://img.shields.io/github/license/Trusted97/fast-api-boilerplate)
 
 This is a boilerplate project to quickly start a web application using the FastAPI framework.
 
