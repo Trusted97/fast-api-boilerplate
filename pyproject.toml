@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fast-api-boilerplate"
+version = "0.1.0"
+description = ""
+authors = ["Gianluca Benucci <benux9700@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25"
+fastapi = "^0.103"
+uvicorn = "^0.23"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
