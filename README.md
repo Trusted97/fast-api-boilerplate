@@ -40,7 +40,7 @@ This is a boilerplate project to quickly start a web application using the FastA
 
 *   `main.py`: Sample FastAPI application and endpoint.
 *   `pyproject.toml`: Project configuration and dependencies managed by Poetry.
-*   `docker/Dockerfile`: Docker configuration for the development environment.
+*   `docker/dev/Dockerfile`: Docker configuration for the development environment.
 
 ## Contributing
 
