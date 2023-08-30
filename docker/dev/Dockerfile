@@ -1,5 +1,5 @@
-# Usa l'immagine base Python 3.8
-FROM python:3.8
+# Usa l'immagine base Python 3.9
+FROM python:3.9
 
 # Imposta il working directory all'interno del container
 WORKDIR /app
@@ -16,11 +16,11 @@ COPY pyproject.toml /app/
 RUN poetry install
 
 # Copia il codice sorgente nella directory /app
-COPY . /app
+COPY .. /app
 
 # Esponi la porta 8000 per FastAPI
 EXPOSE 8000
 
 # Comando per avviare il server FastAPI
-CMD ["poetry", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4"]
+CMD ["poetry", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "--reload"]
 

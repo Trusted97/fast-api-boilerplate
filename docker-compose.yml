@@ -4,7 +4,7 @@ services:
     container_name: fast-api-boilerplate
     build:
       context: .
-      dockerfile: docker/Dockerfile
+      dockerfile: docker/dev/Dockerfile
     tty: true
     volumes:
       - .:/app:cached

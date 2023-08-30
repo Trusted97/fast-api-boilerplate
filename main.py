@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+app = FastAPI(
+    title="FastAPI Boilerplate",
+    description="A boilerplate project for FastAPI.",
+    version="1.0.0"
+)
 
 
 @app.get("/")

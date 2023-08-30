@@ -1,6 +1,6 @@
 # FastAPI Boilerplate
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
+[![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![FastAPI Version](https://img.shields.io/badge/FastAPI-0.103-green.svg)](https://fastapi.tiangolo.com/)
 
 
@@ -19,20 +19,22 @@ This is a boilerplate project to quickly start a web application using the FastA
 
 ## Getting Started
 
-1.  Clone this repository:
+1. Clone this repository:
     
         git clone https://github.com/yourusername/fast-api-boilerplate.git
         cd fast-api-boilerplate
     
-2.  Install dependencies using Poetry:
+2. Install dependencies using Poetry:
     
         poetry install
     
-3.  Run the development server using Docker:
+3. Run the development server using Docker:
     
         docker-compose up
     
-4.  Access the FastAPI application: Open your web browser and go to [http://localhost:8000](http://localhost:8000)
+4. Access the FastAPI application: Open your web browser and go to [http://localhost:8000](http://localhost:8000)
+5. Access the Swagger documentation at [http://localhost:8000/docs](http://localhost:8000/docs) to interact with the API.
+
 
 ## Project Structure
 
