@@ -1,7 +1,8 @@
 # 🐍 FastAPI Boilerplate
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![CI](https://github.com/Trusted97/fast-api-boilerplate/actions/workflows/test.yml/badge.svg)
 [![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![FastAPI Version](https://img.shields.io/badge/FastAPI-0.103-green.svg)](https://fastapi.tiangolo.com/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 This is a boilerplate project to quickly start a web application using the FastAPI framework.
