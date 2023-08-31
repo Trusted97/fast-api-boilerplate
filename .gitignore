@@ -15,5 +15,6 @@ poetry.lock
 
 # Compiled Python files
 __pycache__/
+.pytest_cache/
 *.pyc
 *.pyo

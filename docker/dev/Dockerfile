@@ -22,5 +22,5 @@ COPY .. /app
 EXPOSE 8000
 
 # Comando per avviare il server FastAPI
-CMD ["poetry", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "--reload"]
+CMD ["poetry", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "--reload"]
 
