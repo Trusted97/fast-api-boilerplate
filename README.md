@@ -22,7 +22,7 @@ This is a boilerplate project to quickly start a web application using the FastA
 
 1. Clone this repository:
     
-        git clone https://github.com/yourusername/fast-api-boilerplate.git
+        git clone https://github.com/Trusted97/fast-api-boilerplate.git
         cd fast-api-boilerplate
     
 2. Run the development server using Docker:
