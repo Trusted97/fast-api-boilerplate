@@ -11,7 +11,7 @@ updates:
     schedule:
       interval: "weekly"
   # Maintain dependencies for Poetry
-  - package-ecosystem: "poetry"
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
