@@ -27,7 +27,7 @@ Example of a conventional commit:
 
 6.  Make your changes and commit them using conventional commits.
 
-            `git commit -m "✨ feat: add new feature"`
+            `git commit -m "feat: add new feature"`
         
 
 8.  Push your changes to your forked repository on GitHub:
