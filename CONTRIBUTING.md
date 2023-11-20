@@ -8,7 +8,7 @@ Make sure that your commits follow the conventional commit format. Use appropria
 
 Example of a conventional commit:
 
-        `✨ feat: add new feature`
+        `feat: add new feature`
     
 
 ## 🛑 Steps to Contribute
