@@ -1,5 +1,3 @@
- meta http-equiv="X-UA-Compatible" content="IE=edge">  🛠️ Contributing Guidelines
-
 # 🚀 Contributing Guidelines
 
 Welcome to the contributing guidelines for the FastAPI Boilerplate project! Contributions are highly appreciated. Feel free to submit issues and pull requests. 🎉
