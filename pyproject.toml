@@ -14,7 +14,7 @@ httpx = "^0.26"
 
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.4.0"
+pytest = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
