@@ -1,7 +1,7 @@
 # 🐍 FastAPI Boilerplate
 ![CI](https://github.com/Trusted97/fast-api-boilerplate/actions/workflows/test.yml/badge.svg)
 [![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-380/)
-[![FastAPI Version](https://img.shields.io/badge/FastAPI-0.109-green.svg)](https://fastapi.tiangolo.com/)
+[![FastAPI Version](https://img.shields.io/badge/FastAPI-0.110-green.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6c1f5a9918d45c8cdf2b/maintainability)](https://codeclimate.com/github/Trusted97/fast-api-boilerplate/maintainability)
 
