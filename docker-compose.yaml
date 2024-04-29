@@ -1,7 +1,12 @@
+version: '3.9'
 services:
-  server:
+  fastapi-app:
+    container_name: fast-api-boilerplate
     build:
       context: .
+      dockerfile: docker/dev/Dockerfile
+    tty: true
+    volumes:
+      - .:/app:cached
     ports:
-      - 8000:8000
-
+      - "8000:8000"
