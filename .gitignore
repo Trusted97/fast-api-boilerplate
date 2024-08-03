@@ -1,20 +1,13 @@
-# Virtual environment
-venv/
-.venv/
-
-# Poetry
-__pypackages__/
-poetry.lock
-
-# Logs
-*.log
-
-# Editor-specific
-.vscode/
-.idea/
-
-# Compiled Python files
+# python generated files
 __pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+# test
 .pytest_cache/
-*.pyc
-*.pyo
